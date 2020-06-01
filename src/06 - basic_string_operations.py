@@ -6,6 +6,7 @@ Basic String Operations
 # astring = "Hello world!"
 # astring2 = 'Hello world!'
 
+
 # # 2. Use double quotes to avoid issues with apostrophes and single quotes
 # # len counts the characters including punctuation and spaces
 # astring = "Hello world!"

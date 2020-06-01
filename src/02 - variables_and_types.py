@@ -58,3 +58,10 @@ Variable and Types
 # hello = "hello"
 
 # print(one + two + hello)
+
+#this will work
+one = 1
+two = 2
+hello = "hello"
+
+print(str(one) + str(two) + hello)

@@ -27,5 +27,5 @@ String Formatting
 # with a fixed amount of digits to the right of the dot.
 
 # This prints out: A list: [1, 2, 3]
-# mylist = [1, 2, 3]
-# print("A list: %s" % mylist)
+mylist = [1, 2, 3]
+print("A list: %s" % mylist)

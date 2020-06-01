@@ -11,9 +11,9 @@ Lists
 
 # # 1.
 # mylist = []
-# mylist.append(1)
-# mylist.append(2)
-# mylist.append(3)
+# mylist.append(1)  #[1]
+# mylist.append(2)  #[1,2]
+# mylist.append(3)  #[1,2,3]
 # print(mylist[0])  # prints 1
 # print(mylist[1])  # prints 2
 # print(mylist[2])  # prints 3
@@ -22,6 +22,9 @@ Lists
 # for x in mylist:
 #     print(x)
 
+    # for item in mylist:
+    # print(item)
+
 # # 2. If index doesn't exist, an exception is raised
-# mylist = [1,2,3]
-# print(mylist[10])
+mylist = [1,2,3]
+print(mylist[10])
