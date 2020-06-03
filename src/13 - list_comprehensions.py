@@ -16,11 +16,11 @@ List Comprehensions
 # print(word_lengths)
 
 # # WITH LIST COMPREHENSIONS
-# sentence = "the quick brown fox jumps over the lazy dog"
-# words = sentence.split()
-# word_lengths = [len(word) for word in words if word != "the"]
-# print(words)
-# print(word_lengths)
+sentence = "the quick brown fox jumps over the lazy dog"
+words = sentence.split()
+word_lengths = [len(word) for word in words if word != "the"]
+print(words)
+print(word_lengths)
 
 
 """
@@ -31,5 +31,7 @@ YOU DO
 # that has only names that start with the letter s
 # and make sure all the names are properly
 # capitalized in the new list.
+# 
+names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]
+print([x.capitalize() for x in names if x[0] == "s" or x[0] == "S"])
 
-# names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]

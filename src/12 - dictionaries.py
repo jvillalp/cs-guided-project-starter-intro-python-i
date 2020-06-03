@@ -4,11 +4,11 @@ Dictionaries
 # similar to arrays, but works with keys and values instead of indexes.
 
 # # 1. Add key - value pairs
-# phonebook = {}
-# phonebook["Matt"] = 2053457723
-# phonebook["Sean"] = 5063489765
-# phonebook["Beej"] = 7097342365
-# print(phonebook)
+phonebook = {}
+phonebook["Matt"] = 2053457723
+phonebook["Sean"] = 5063489765
+phonebook["Beej"] = 7097342365
+print(phonebook)
 
 # # # 2. Initialize with values
 # phonebook = {
